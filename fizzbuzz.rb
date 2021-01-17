@@ -7,11 +7,11 @@ def fizzbuzz(int)
   elsif int % 5 == 0 # if the number int is divisible by 5
       "Buzz" # Go Buzz
 
-  elsif int % 3 || 5 == 0 # if the nummber int is divisible by 3 or 5
+  elsif int % 3 %% 5 == 0 # if the nummber int is divisible by 3 or 5
     "FizzBuzz"
 
   else
-    int % 3 && 5  == 0 # if the number int is not diviible by 3 or 5
+    int % 3 || 5  == 0 # if the number int is not diviible by 3 or 5
       "FizzBuzz"
   end
 end

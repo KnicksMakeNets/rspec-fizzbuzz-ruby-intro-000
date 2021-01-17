@@ -11,6 +11,6 @@ def fizzbuzz(int)
     "FizzBuzz"
 
   else int % 3 && 5  == 0 # if the number int is not diviible by 3 or 5
-      "nil"
+      "FizzBuzz"
   end
 end

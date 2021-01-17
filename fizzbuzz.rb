@@ -10,7 +10,7 @@ def fizzbuzz(int)
   elsif int % 3 || 5 == 0 # if the nummber int is divisible by 3 or 5
     "FizzBuzz"
 
-  else 
+  else
     int % 3 && 5  == 0 # if the number int is not diviible by 3 or 5
       "FizzBuzz"
   end
